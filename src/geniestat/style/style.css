@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(225, 225, 255, 0.4);
+}
+
+.hero {
+  background-image: url("../medias/pexels-divinetechygirl-1181325.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
