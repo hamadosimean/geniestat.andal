@@ -8,7 +8,7 @@ import CareerSection from "./CareerTeam";
 
 const Career = () => {
   return (
-    <div className="flex flex-col items-center w-4/5 m-auto">
+    <div className="flex flex-col items-center md:w-4/5 md:m-auto px-2">
       <p className="font-extrabold text-4xl mt-2.5 mb-2.5 text-center">
         Carrière
       </p>
@@ -62,7 +62,7 @@ const Career = () => {
         </p>
       </div>
       <CareerSection />
-      <div className="w-full bg-gray-100 p-6 rounded-md">
+      <div className="w-full bg-gray-100 p-2 rounded-md">
         <p className="font-extrabold text-2xl mb-4 text-center">Nos Services</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {ServicesData.slice(ServicesData.length - 4, ServicesData.length).map(
@@ -78,7 +78,9 @@ const Career = () => {
                   className="w-full h-40 object-cover rounded-t-lg mb-4"
                 />
                 <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-                <p className="text-sm">{service.description}</p>
+                <p className="text-sm">
+                  <Markdown>{service.description.slice(0, 400)}</Markdown>
+                </p>
               </Link>
             )
           )}

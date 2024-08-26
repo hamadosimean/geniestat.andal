@@ -1,19 +1,19 @@
 import simean from "../medias/simean.jpg";
-import sebgo from "../medias/cs.jpg";
+import sebgo from "../medias/sebgo.jpg";
 const TeamData = [
   {
     id: 1,
     image: sebgo,
     name: "Sebgo Souleymmane",
     occupation: "CEO",
-    home: "Kaya,sect 6",
+    home: "Kaya",
   },
   {
     id: 2,
     image: simean,
     name: "Simean Hamado",
-    occupation: "Co-fonder",
-    home: "Kaya,sect 6",
+    occupation: "Co-founder",
+    home: "",
   },
 ];
 export default TeamData;

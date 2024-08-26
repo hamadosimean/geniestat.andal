@@ -1,14 +1,72 @@
 import simean from "../medias/simean.jpg";
-import sebgo from "../medias/cs.jpg";
+import sebgo from "../medias/sebgo.jpg";
 import formation1 from "../medias/IMG-20231129-WA0038.png";
 import formation2 from "../medias/IMG-20231129-WA0038.png";
 import poko from "../medias/IMG-20231129-WA0038.png";
 import bienvenue from "../medias/IMG-20231129-WA0038.png";
 import iba from "../medias/IMG-20231129-WA0038.png";
+import aly from "../medias/aly.jpg";
 import fromation1 from "../medias/IMG-20231129-WA0038.png";
 import dataAnalyticsWithExcel from "../medias/DATA ANALYTICS WITH EXCEL.png";
 
 const FormationsData = [
+  // Ben
+
+  {
+    id: 16,
+    image: fromation1,
+    title: `Formation Excel Masterclass : Le Parcours Complet pour Devenir Expert`,
+    description: `Excel est un logiciel de calcul idéal dans l’automatisation des tâches de gestion. Ses 
+    ressources sont immenses et son utilisation infinie. On peut, en effet, s’en servir 
+    pour élaborer un budget ou une facture, mais aussi pour analyser un bilan, une 
+    activité commerciale, ou encore gérer un portefeuille boursier. 
+    Grâce à un ensemble de fonctions prédéfinies dans des domaines comme les 
+    mathématiques, la finance, les statistiques, etc. Excel permet de construire des 
+    modèles de calcul adaptés à chaque activité professionnelle. Ce logiciel ne possède aucune limite. 
+    Cette formation vous permettra de devenir un génie de cet incontournable logiciel dans le domaine professionnel.`,
+    price: 5000,
+    discount: 0,
+    online: true,
+    inPerson: false,
+    category: true,
+    startDate: "",
+    endDate: "",
+    features: [
+      `Partie I : Introduction et Fonctions de Base`,
+
+      `Prise en main de l’interface d’Excel`,
+      `Création et gestion des fichiers`,
+      `Saisie, modification et mise en forme des données`,
+      `Formules et opérations de base`,
+
+      `Partie II : Gestion et Analyse des Données`,
+
+      `Tri, filtrage et tableaux structurés`,
+      `Fonctions avancées (recherche, conditionnelles)`,
+      `Création et personnalisation de graphiques`,
+      `Tableaux croisés dynamiques`,
+
+      `Partie III : Automatisation des tâches et Protection des données`,
+
+      `Introduction aux macros et VBA`,
+      `Automatisation des tâches`,
+      `Protection des feuilles et des classeurs`,
+
+      `Partie IV : Collaboration et Projets Pratiques`,
+
+      `Partage de fichiers et collaboration en temps réel`,
+      `Paramètres d’impression et exportation`,
+      `Études de cas réels et projets pratiques `,
+      `Evaluation et Certifications`,
+    ],
+    trainer: {
+      name: "TIDIGA Ali",
+      image: aly,
+      speciality:
+        "Expert in Excel data protection, mastering macros and VBA to automate repetitive tasks, optimize data management processes, and enhance efficiency within the organization",
+      contact: "https://www.linkedin.com/in/aly-tidiga-786872238",
+    },
+  },
   // SIMEAN
 
   {
@@ -45,7 +103,7 @@ const FormationsData = [
     trainer: {
       name: "SIMEAN Hamado",
       image: simean,
-      speciality: `Software engineer. Data Scientist`,
+      speciality: `Data analyst`,
       contact: "http://www.linkedin.com/in/hamadosimean",
     },
   },

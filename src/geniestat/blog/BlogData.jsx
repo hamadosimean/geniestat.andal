@@ -1,14 +1,14 @@
-import blogImage1 from "../medias/3d-business-young-woman-waving-her-hand-while-sitting-at-the-computer.png";
-import blogImage2 from "../medias/ben-white-83tkHLPgg2Q-unsplash.jpg";
-import blogImage3 from "../medias/tiny-lettering-contact-us-in-browser-with-gears-and-envelope-text.png";
-
+import ai from "../medias/glare-artificial-intelligence-brain-on-silicon-chip-2.png";
+import stat from "../medias/bonbon-analysis-of-graphs-and-diagrams-4.png";
+import techTrending from "../medias/pexels-bradleyhook-123335.jpg";
+import productiveW from "../medias/7-places-workflow.png";
 const BlogPostsData = [
   {
     id: 1,
     title: "Les Dernières Tendances en Technologie",
     description:
       "Découvrez les dernières tendances qui façonnent l'industrie technologique aujourd'hui.",
-    image: blogImage1,
+    image: techTrending,
     author: "Simean Hamado",
     datePublished: "2024-08-10",
     content: `
@@ -48,7 +48,7 @@ Les tendances technologiques actuelles démontrent une convergence entre différ
     title: "Comment l'IA Change Notre Monde",
     description:
       "Une plongée dans les façons dont l'intelligence artificielle transforme divers aspects de notre vie quotidienne.",
-    image: blogImage2,
+    image: ai,
     author: "Simean Hamado",
     datePublished: "2024-08-15",
     content: `# Une plongée dans les façons dont l'intelligence artificielle transforme divers aspects de notre vie quotidienne
@@ -82,7 +82,7 @@ L'intelligence artificielle est en train de transformer notre quotidien de mani�
     title: "5 Conseils pour Optimiser Votre Workflow",
     description:
       "Des conseils pratiques pour améliorer votre productivité et optimiser votre flux de travail.",
-    image: blogImage3,
+    image: productiveW,
     author: "Simean Hamado",
     datePublished: "2024-08-20",
     content: `
@@ -121,7 +121,7 @@ Optimiser votre workflow est un processus continu qui demande de la réflexion e
     title: "Chaque business a besoin des statistiques ",
     description:
       "L'importance des statistiques pour chaque business peu import la taille",
-    image: blogImage3,
+    image: stat,
     author: "Simean Hamado",
     dataPublished: "08/19/2024",
     content: `# Chaque business a besoin des statistiques
