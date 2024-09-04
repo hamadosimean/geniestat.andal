@@ -20,7 +20,7 @@ const GenieStatNavbar = () => {
   return (
     <div>
       <FlashInfo />
-      <div className="flex bg-blue-600 h-20 justify-between items-center px-4 md:px-10">
+      <div className="flex bg-blue-600 h-20 justify-between items-center px-4 md:px-10  sticky top-0 left-0 w-full z-50">
         <div className="flex items-center">
           <Link to="/">
             <img src={logoImage} className="h-14 w-16" alt="GenieStat logo" />

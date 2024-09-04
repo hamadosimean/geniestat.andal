@@ -16,7 +16,7 @@ const ServiceDetail = () => {
         <img
           src={serviceElement.image}
           alt={`Service ${serviceElement.title}`}
-          className="size-68 mb-10"
+          className="w-90 h-ful md:h-80 mb-10"
         />
         <p className="font-bold text-2xl mb-10 md:mb-auto md:text-3xl">
           {serviceElement.title}
@@ -27,8 +27,8 @@ const ServiceDetail = () => {
           <Markdown>{serviceElement.description}</Markdown>
         </p>
 
-        {/* <div className="mt-4">
-          <p className="font-bold text-sm md:text-xl">Fonctionnalités</p>
+        <div className="mt-4">
+          <p className="font-bold text-sm md:text-xl">Details</p>
           <ul className="list-disc list-inside mt-2">
             {serviceElement.features.map((feature, index) => (
               <li key={index} className="text-sm md:text-lg">
@@ -36,7 +36,7 @@ const ServiceDetail = () => {
               </li>
             ))}
           </ul>
-        </div> */}
+        </div>
 
         <div className="mt-8 mb-8">
           <SendWhatsapp

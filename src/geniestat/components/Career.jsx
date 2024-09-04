@@ -31,7 +31,7 @@ const Career = () => {
       <Acheivement />
       <div className="mt-6">
         <p className="font-extrabold text-4xl mt-2.5 mb-2.5 text-center">
-          Pourquoi nous rejoindre chez GenieStat ?
+          Pourquoi rejoindre GenieStat ?
         </p>
         <p className="text-xl md:text-2xl mb-6">
           <Markdown>

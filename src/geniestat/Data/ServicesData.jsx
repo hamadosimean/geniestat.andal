@@ -1,6 +1,5 @@
 import excelImage from "../medias/3d-casual-life-smiling-woman-holding-graph.png";
-import img2 from "../medias/demure-program-window-with-code.png";
-import img3 from "../medias/haze-programmer-writing-code-on-laptop-1.png";
+import dataCollectionImage from "../medias/How-to-use-Microsofts-Excel-Data-Analysis-Toolpak.png";
 const ServicesData = [
   {
     id: 1,
@@ -33,6 +32,40 @@ const ServicesData = [
       "Technical Audits",
       "Implementation Support",
       "Ongoing Advice and Support",
+    ],
+  },
+
+  {
+    id: 2,
+    image: dataCollectionImage, // Remplacez par l'image appropriée pour la collecte de données
+    title: "Collecte et Analyse de Données",
+    description: `## Collecte et Analyse de Données : Un Service Complet
+
+### **Nos Services de Collecte et d'Analyse de Données**
+
+1. **Programmation de Questionnaires**
+  - **Conception sur Mesure** : Création de questionnaires adaptés à vos besoins spécifiques, qu'il s'agisse d'enquêtes en ligne ou sur le terrain.
+  - **Outils Avancés** : Utilisation de logiciels spécialisés pour garantir la précision et l'efficacité de la collecte de données.
+
+2. **Collecte de Données**
+  - **Enquête en Ligne et sur le Terrain** : Réalisation d'enquêtes en ligne ou sur le terrain, selon les exigences de votre projet.
+  - **Gestion des Données** : Stockage sécurisé et gestion des données recueillies pour assurer leur intégrité.
+
+3. **Analyse Statistique**
+  - **Méthodes Statistiques Avancées** : Application de techniques statistiques pour analyser les données et en tirer des conclusions significatives.
+  - **Visualisation de Données** : Création de graphiques et de rapports pour illustrer les résultats de l'analyse.
+
+4. **Rapports et Recommandations**
+  - **Rapports Détaillés** : Fourniture de rapports complets avec des insights clairs pour vous aider à prendre des décisions éclairées.
+  - **Recommandations Stratégiques** : Propositions de solutions basées sur les données analysées pour optimiser vos processus.
+`,
+    prix: 500000,
+    discount: 10,
+    features: [
+      "Programmation de Questionnaires",
+      "Collecte de Données",
+      "Analyse Statistique",
+      "Rapports et Recommandations",
     ],
   },
 ];

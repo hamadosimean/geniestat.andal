@@ -1,20 +1,27 @@
 import simean from "../medias/simean.jpg";
 import sebgo from "../medias/sebgo.jpg";
-import formation1 from "../medias/IMG-20231129-WA0038.png";
-import formation2 from "../medias/IMG-20231129-WA0038.png";
+import formation1 from "../medias/formation1.png";
+import formation2 from "../medias/formation2.png";
+import formation3 from "../medias/formation3.png";
+import formation4 from "../medias/formation4.png";
+import formation5 from "../medias/formation5.png";
+import formation6 from "../medias/formation6.png";
+import formation7 from "../medias/formation7.png";
+import formation8 from "../medias/formation8.png";
+
 import poko from "../medias/IMG-20231129-WA0038.png";
-import bienvenue from "../medias/IMG-20231129-WA0038.png";
+import bienvenue from "../medias/bienvenue.jpg";
 import iba from "../medias/IMG-20231129-WA0038.png";
 import aly from "../medias/aly.jpg";
-import fromation1 from "../medias/IMG-20231129-WA0038.png";
-import dataAnalyticsWithExcel from "../medias/DATA ANALYTICS WITH EXCEL.png";
-
+import yacouba from "../medias/IMG-20231129-WA0038.png";
+import formation9 from "../medias/IMG-20231129-WA0038.png";
+// import dataAnalyticsWithExcel from "../medias/DATA ANALYTICS WITH EXCEL.png";
 const FormationsData = [
   // Ben
 
   {
-    id: 16,
-    image: fromation1,
+    id: 1,
+    image: formation1,
     title: `Formation Excel Masterclass : Le Parcours Complet pour Devenir Expert`,
     description: `Excel est un logiciel de calcul idéal dans l’automatisation des tâches de gestion. Ses 
     ressources sont immenses et son utilisation infinie. On peut, en effet, s’en servir 
@@ -28,7 +35,7 @@ const FormationsData = [
     discount: 0,
     online: true,
     inPerson: false,
-    category: true,
+    category: "excel",
     startDate: "",
     endDate: "",
     features: [
@@ -71,7 +78,7 @@ const FormationsData = [
 
   {
     id: 2,
-    image: dataAnalyticsWithExcel,
+    image: formation2,
     title: "Formation en Analyse de données avec Excel",
     description: `### Formation en Analyse de Données avec Excel
 *Ce cours pratique vous permettra de :*
@@ -86,7 +93,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "excel",
     startDate: "",
     endDate: "",
     features: [
@@ -112,7 +119,7 @@ const FormationsData = [
 
   {
     id: 3,
-    image: formation2,
+    image: formation3,
     title:
       "Formation De A à Z en Collecte des données d'enquête avec Kobotoolbox",
     description: ` *Ce cours pratique vous permettra de :* 
@@ -125,7 +132,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "data_collection",
     startDate: "",
     endDate: "",
     features: [
@@ -154,7 +161,7 @@ const FormationsData = [
 
   {
     id: 4,
-    image: fromation1,
+    image: formation4,
     title:
       "Formation 100% pratique en Collecte des données d'enquête avec XLSForm",
     description: `Dans ce module d’initiation, vous découvrirez comment :\
@@ -166,7 +173,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "data_collection",
     startDate: "",
     endDate: "",
     features: [
@@ -200,7 +207,7 @@ const FormationsData = [
 
   {
     id: 5,
-    image: formation2,
+    image: formation5,
     title:
       "Formation Complète en Collecte des données d'enquête avec Enketo/Kobotoolbox et XLSForm",
     description: `Ce cours d’initiation vous permettra de :\
@@ -212,7 +219,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "data_collection",
     startDate: "",
     endDate: "",
     features: [
@@ -239,7 +246,7 @@ const FormationsData = [
 
   {
     id: 6,
-    image: formation1,
+    image: formation6,
     title:
       "Formation De A à Z en Collecte des données d'enquête avec SurveyCTO et XLSForm",
     description: `Cette formation de base vous guidera pour :
@@ -251,7 +258,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "data_collection",
     startDate: "",
     endDate: "",
     features: [
@@ -277,7 +284,7 @@ const FormationsData = [
 
   {
     id: 7,
-    image: fromation1,
+    image: formation7,
     title:
       "Maitriser de A à Z la Collecte des données d'enquête avec Kobotoolbox, XLSForm, SurveyCTO et Jotform",
     description: `*Ce cours pratique vous permettra de :* \
@@ -289,7 +296,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "data_collection",
     startDate: "",
     endDate: "",
     features: [
@@ -329,7 +336,7 @@ const FormationsData = [
 
   {
     id: 8,
-    image: fromation1,
+    image: formation8,
     title: "R pour les Débutants : Initiation en Analyse de Données Simplifiée",
     description: `Cette formation est idéale pour les débutants qui souhaitent se familiariser avec R\
     et acquérir les compétences nécessaires pour analyser et interpréter des données.\
@@ -338,7 +345,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "data_analysis",
     startDate: "",
     endDate: "",
     features: [
@@ -368,7 +375,7 @@ const FormationsData = [
 
   {
     id: 9,
-    image: fromation1,
+    image: formation9,
     title:
       "Apprenenez les bases du logicielc R: Cas pratique d'analyses statistiques",
     description: ` Plongez dans l'univers de l'analyse de données avec R, l'un des outils les plus puissants et les plus flexibles\
@@ -378,7 +385,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "data_analysis",
     startDate: "",
     endDate: "",
     features: [
@@ -412,7 +419,7 @@ const FormationsData = [
 
   {
     id: 10,
-    image: fromation1,
+    image: formation9,
     title:
       "Analyse de Données avec Excel pour Débutants : Maîtrisez l'essentiel de Excel en 2 Semaines",
     description: ` Découvrez comment transformer vos données en insights puissants avec Excel !
@@ -422,7 +429,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "data_analysis",
     startDate: "",
     endDate: "",
     features: [
@@ -454,7 +461,7 @@ const FormationsData = [
 
   {
     id: 11,
-    image: fromation1,
+    image: formation9,
     title:
       "Maîtrisez les Fondamentaux de Excel: Cas pratiques d'automatisation des Facturations",
     description: `Dites adieu aux erreurs de facturation et au traitement manuel avec notre formation sur l'automatisation des factures simples !
@@ -463,7 +470,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "excel",
     startDate: "",
     endDate: "",
     features: [
@@ -493,7 +500,7 @@ const FormationsData = [
 
   {
     id: 12,
-    image: fromation1,
+    image: formation9,
     title: "Excel pour l’Analyse Commerciale : 100% pratique en 01 mois",
     description: `Transformez vos compétences Excel et boostez votre analyse de données commerciales !
     En un (01) mois, découvrez comment utiliser Excel pour déchiffrer les chiffres,
@@ -502,7 +509,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "excel",
     startDate: "",
     endDate: "",
     features: [
@@ -529,7 +536,7 @@ const FormationsData = [
 
   {
     id: 13,
-    image: fromation1,
+    image: formation9,
     title:
       "Maîtrisez les Fondamentaux de Excel: Cas pratiques d'automatisation des Bulletins Scolaires",
     description: `Revolutionnez la gestion des évaluations avec cette formation pratique sur l'automatisation des bulletins scolaires !\
@@ -539,7 +546,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "data_analysis",
     startDate: "",
     endDate: "",
     features: [
@@ -570,7 +577,7 @@ const FormationsData = [
 
   {
     id: 14,
-    image: fromation1,
+    image: formation9,
     title:
       "Formation complète en Bureautique pour Débutants: Word, Excel et PowerPoint",
     description: `Apprenez les bases de la bureautique pour devenir plus autonome et efficace.
@@ -580,7 +587,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "bureautique",
     startDate: "",
     endDate: "",
     features: [
@@ -612,7 +619,7 @@ const FormationsData = [
 
   {
     id: 15,
-    image: fromation1,
+    image: formation9,
     title:
       "Créez des Affiches et Logos de Pro sur Mobile: Formation pratique en Graphisme avec Pixellab",
     description: `Explorez l'univers du design mobile avec notre formation avancée en graphisme sur Pixellab.
@@ -622,7 +629,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "design",
     startDate: "",
     endDate: "",
     features: [
@@ -661,7 +668,7 @@ const FormationsData = [
 
   {
     id: 16,
-    image: fromation1,
+    image: formation9,
     title: "Bureautique pour Débutants : Les Fondamentaux de Word et Excel",
     description: `Cette formation vous initie aux outils de bureautique indispensables. 
     Vous apprendrez à créer des documents, des tableaux et des présentations,
@@ -670,7 +677,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "bureautique",
     startDate: "",
     endDate: "",
     features: [
@@ -701,7 +708,7 @@ const FormationsData = [
 
   {
     id: 17,
-    image: fromation1,
+    image: formation9,
     title:
       "Initiation Rapide et Pratique à l'Infographie avec Photoshop en 01 Mois seulement",
     description: `Découvrez les fondamentaux de l'infographie avec Photoshop.
@@ -711,7 +718,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "design",
     startDate: "",
     endDate: "",
     features: [
@@ -741,7 +748,7 @@ const FormationsData = [
 
   {
     id: 18,
-    image: fromation1,
+    image: formation9,
     title: "Maîtrisez les Outils Essentiels de la bureautique: Word et Excel",
     description: `En seulement un (01) mois, apprenez à maîtriser les deux outils bureautiques les plus\
      indispensables : Word et Excel. Cette formation vous donnera les bases nécessaires pour créer\
@@ -750,7 +757,7 @@ const FormationsData = [
     discount: 0.2,
     online: true,
     inPerson: false,
-    category: true,
+    category: "bureautique",
     startDate: "",
     endDate: "",
     features: [
@@ -774,6 +781,118 @@ const FormationsData = [
       image: iba,
       speciality:
         "Expert in the creation, automation, and management of data collection systems, with expertise in integrating various digital tools to enhance the efficiency of data management processes.",
+      contact: "",
+    },
+  },
+
+  {
+    id: 19,
+    image: formation9,
+    title: `Formation pratique sur Microsoft Project`,
+    description: `MS Project permet de planifier; suivre et gérer des projets de manière efficace. 
+    Cette formation vous guidera dans la création de projets; la gestion des tâches et 
+    des ressources; ainsi que dans l'analyse et la collecte des données relatives à 
+    l'avancement des projets; afin d’optimiser la performance et de respecter les délais.`,
+    price: 8000,
+    discount: 0.2,
+    online: true,
+    inPerson: false,
+    category: "project_management",
+    startDate: "",
+    endDate: "",
+    features: [
+      `Programme de la formation :`,
+
+      `Partie 1: Introduction à MS Project`,
+
+      `Vue d'ensemble de l'outil `,
+      `Création d'un projet `,
+      `Présentation de l'interface et des principales fonctionnalités`,
+
+      `Partie 2:  Planification des tâches`,
+
+      `Création de tâches et sous-tâches`,
+      `Dépendances entre les tâches`,
+      `Utilisation des durées, échéances et jalons`,
+
+      `Partie 3:  Gestion des ressources`,
+
+      `Ajout et affectation de ressources (humaines, matérielles)`,
+      `Gestion des coûts et du temps des ressources`,
+      `Optimisation des ressources`,
+
+      `Partie 4: Suivi et collecte des données`,
+
+      `Suivi de l'avancement des tâches`,
+      `Mise à jour de l'état du projet`,
+      `Suivi des indicateurs clés de performance (KPIs)`,
+
+      `Partie 5: Analyse et gestion des données`,
+
+      `Visualisation et analyse des données à   l’aide de rapports`,
+      `Exportation des données (Excel, CSV)`,
+      `Tableaux de bord et rapports personnalisés pour le suivi des projets `,
+
+      `Partie 6: Exercices pratiques`,
+
+      `Création d'un projet type`,
+      `Simulation de gestion de projet avec collecte de données en temps réel`,
+      `Discussion et retour sur les difficultés rencontrées`,
+    ],
+    trainer: {
+      name: "YOUGBARE Bienvenue",
+      image: bienvenue,
+      speciality: "",
+      contact: "",
+    },
+  },
+
+  {
+    id: 20,
+    image: formation9,
+    title: `Formation Excel Masterclass : Le Parcours Complet pour Devenir Expert`,
+    description: `L'objectif de cette formation est d'apprendre les bases de Google Sheets, y compris la navigation, 
+    la gestion de données, l'utilisation des fonctions de base, et la création de graphiques simples, 
+    afin de manipuler efficacement des feuilles de calcul pour des tâches quotidiennes.`,
+    price: 5000,
+    discount: 0.2,
+    online: true,
+    inPerson: false,
+    category: "excel",
+    startDate: "",
+    endDate: "",
+    features: [
+      `Partie I : Introduction et Fonctions de Base`,
+
+      `Prise en main de l’interface d’Excel`,
+      `Création et gestion des fichiers`,
+      `Saisie, modification et mise en forme des données`,
+      `Formules et opérations de base`,
+
+      `Partie II : Gestion et Analyse des Données`,
+
+      `Tri, filtrage et tableaux structurés`,
+      `Fonctions avancées (recherche, conditionnelles)`,
+      `Création et personnalisation de graphiques`,
+      `Tableaux croisés dynamiques`,
+
+      `Partie III : Automatisation des tâches et Protection des données`,
+
+      `Introduction aux macros et VBA`,
+      `Automatisation des tâches`,
+      `Protection des feuilles et des classeurs`,
+
+      `Partie IV : Collaboration et Projets Pratiques`,
+
+      `Partage de fichiers et collaboration en temps réel`,
+      `Paramètres d’impression et exportation`,
+      `Études de cas réels et projets pratiques `,
+      `Evaluation et Certifications`,
+    ],
+    trainer: {
+      name: "OUEDRAOGO Yacouba",
+      image: yacouba,
+      speciality: "",
       contact: "",
     },
   },

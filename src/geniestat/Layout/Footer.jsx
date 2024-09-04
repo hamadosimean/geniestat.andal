@@ -125,14 +125,16 @@ const Footer = () => {
       </div>
 
       <p className="text-center py-4 bg-black">
-        Copyright &copy; {new Date().getFullYear()} GENIESTAT Andal . Design by{" "}
+        Copyright &copy; {new Date().getFullYear()} GenieStat Andal . All rights
+        reserved
+        {/* Design by{" "}
         <NavLink
           to="https://hamado-simean.netlify.app/"
           className="text-blue-400"
           target="_blank"
         >
           Hamado Simean
-        </NavLink>
+        </NavLink> */}
       </p>
     </div>
   );
