@@ -37,7 +37,7 @@ const Footer = () => {
           >
             geniestat.andal@gmail.com
           </NavLink>
-          <p>(+226) 73439675 / 55674512 / 79143616</p>
+          <p>(+226) 64402317 / 72262412 / 79143616</p>
         </div>
 
         <div className="flex flex-col ml-4 mt-4 space-y-2">

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import contactUsImage from "../medias/tiny-lettering-contact-us-in-browser-with-gears-and-envelope-text.png";
+import contactUsImage from "../medias/3d-fluency-support-female.png";
 import { IconButton } from "@mui/material";
 import {
   Email,
