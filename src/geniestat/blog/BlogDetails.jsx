@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import BlogPostsData from "./BlogData"; // Assume this is where your blog posts data is stored
 import Markdown from "react-markdown";
 const BlogDetails = () => {
-  const { id } = useParams(); // Get the blog ID from the URL parameters
-  const blogPost = BlogPostsData.find((post) => post.id === parseInt(id));
+  const { slug } = useParams(); // Get the blog ID from the URL parameters
+  const blogPost = BlogPostsData.find((post) => post.slug === slug);
 
   if (!blogPost) {
     return <div>Blog post not found</div>;

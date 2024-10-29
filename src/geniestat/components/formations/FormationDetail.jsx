@@ -18,18 +18,18 @@ const FormationDetail = () => {
   const paramValue = useParams();
 
   const formationsElement = FormationsData.filter(
-    (formation) => formation.id === parseInt(paramValue.id)
-  );
+    (formation) => formation.slug === paramValue.slug
+  ); // Get the first matching element
 
   return (
     <div className="flex justify-between flex-col md:flex-row pr-10 pl-10 pt-4 pb-4">
-      <div className="flex flex-col">
+      <div className="flex flex-col w-fit md:w-96">
         <img
           src={formationsElement[0].image}
           alt={`formation${formationsElement[0].id}`}
-          className="w-90 h-ful md:h-80 mb-10"
+          className="size-96  md:h-80 mb-10"
         />
-        <p className="font-bold text-sm mb-10 md:mb-auto md:text-xl">
+        <p className="font-bold text-lg mb-10 md:mb-auto md:text-xl">
           {formationsElement[0].title}
         </p>
         <div className="hidden md:block">
@@ -109,20 +109,27 @@ const FormationDetail = () => {
                 </div>
               )}
 
-              <div className="mt-10 flex items-center">
-                {formationsElement[0].discount > 0 ? (
-                  <del className="text-white text-sm font-bold bg-red-600 h-12 w-24 md:w-32 flex items-center justify-center">
-                    {formationsElement[0].price} FCFA
-                  </del>
-                ) : (
-                  ""
-                )}
-                <div className="text-white text-sm font-bold bg-blue-600 h-12 w-24 md:w-32 flex items-center justify-center">
-                  {formationsElement[0].discount > 0
-                    ? formationsElement[0].price -
-                      formationsElement[0].price * formationsElement[0].discount
-                    : formationsElement[0].price}
-                  FCFA
+              <div>
+                {/* <div className="font-bold text-sm mt-4 mb-2 text-16 md:text-20 text-blue-600  rounded-4">
+                  Promo {formationsElement[0].discount * 100}%
+                </div> */}
+                <div className="mt-10 flex items-center">
+                  {formationsElement[0].discount > 0 ? (
+                    <del className="text-white text-sm font-bold bg-red-600 h-12 w-24 md:w-32 flex items-center justify-center">
+                      {formationsElement[0].price} FCFA
+                    </del>
+                  ) : (
+                    ""
+                  )}
+
+                  <div className="text-white text-sm font-bold bg-blue-600 h-12 w-24 md:w-32 flex items-center justify-center">
+                    {formationsElement[0].discount > 0
+                      ? formationsElement[0].price -
+                        formationsElement[0].price *
+                          formationsElement[0].discount
+                      : formationsElement[0].price}
+                    FCFA
+                  </div>
                 </div>
               </div>
             </div>

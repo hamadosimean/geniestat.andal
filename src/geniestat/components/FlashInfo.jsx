@@ -10,10 +10,19 @@ const FlashInfo = () => {
     <div className="bg-black text-white flex items-center justify-between px-4">
       {showFlashInfo && (
         <>
-          <marquee scrollamount="2" className="flex-1">
-            Formation en analyse de données avec Excel en cours
-            <Link to="/formations/2" className="text-blue-500 text-bold ml-2.5">
-              commencer la formation
+          <marquee className="flex-1">
+            Nous sommes en promotion. Les prix de nos formations ont été reduits
+            de 50%{" "}
+            <Link to="/formations" className="text-blue-500 text-bold ml-2.5">
+              cliquez ici pour commencer.
+            </Link>
+            {"  "}
+            Avoir un CV professionnel peut booster votre chance de décrocher un
+            boulot de votre rêve, alors que notre objectif est de vous voir
+            reussir
+            <Link to="/contact-us" className="text-blue-500 text-bold ml-2.5">
+              {" "}
+              Contactez-nous pour votre assistance
             </Link>
           </marquee>
           <div

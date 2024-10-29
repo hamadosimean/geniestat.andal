@@ -1,11 +1,13 @@
 import excelImage from "../medias/3d-casual-life-smiling-woman-holding-graph.png";
 import dataCollectionImage from "../medias/How-to-use-Microsofts-Excel-Data-Analysis-Toolpak.png";
+import createSlug from "../Layout/CreateSlug";
 const ServicesData = [
   {
     id: 1,
     image: excelImage,
     title: "Analyse de données",
-    description: `## Analyse de Données : Notre Service Complet
+    slug: createSlug("Analyse de données"),
+    description: `## Analyse de Données : Notre Service Complet,
 
 ### **Nos Services d'Analyse de Données**
 
@@ -39,6 +41,7 @@ const ServicesData = [
     id: 2,
     image: dataCollectionImage, // Remplacez par l'image appropriée pour la collecte de données
     title: "Collecte et Analyse de Données",
+    slug: createSlug("Collecte et Analyse de Données"),
     description: `## Collecte et Analyse de Données : Un Service Complet
 
 ### **Nos Services de Collecte et d'Analyse de Données**

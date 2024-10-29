@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import ProductData from "./ProductData"; // Adjust the path as necessary
 import SendWhatsapp from "../components/SendWhatsapp";
 const ProductDetail = () => {
-  const { id } = useParams(); // Get the product ID from the URL
-  const product = ProductData.find((item) => item.id === parseInt(id));
+  const { slug } = useParams(); // Get the product ID from the URL
+  const product = ProductData.find((item) => item.slug === slug);
 
   // const features =
   //   product.features.length > 0 ? (

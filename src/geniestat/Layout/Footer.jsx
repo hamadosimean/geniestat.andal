@@ -9,7 +9,7 @@ import {
   X,
 } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
-import logo from "../medias/IMG-20231129-WA0038.png";
+import logo from "../medias/geniestat.png";
 
 const Footer = () => {
   return (

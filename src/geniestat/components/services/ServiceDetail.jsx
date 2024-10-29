@@ -7,7 +7,7 @@ import Markdown from "react-markdown";
 const ServiceDetail = () => {
   const paramValue = useParams();
   const serviceElement = ServicesData.filter(
-    (service) => service.id === parseInt(paramValue.id)
+    (service) => service.slug === paramValue.slug
   )[0]; // Get the first (and only) matched service
 
   return (
@@ -16,7 +16,7 @@ const ServiceDetail = () => {
         <img
           src={serviceElement.image}
           alt={`Service ${serviceElement.title}`}
-          className="w-90 h-ful md:h-80 mb-10"
+          className="size-96 md:h-80 mb-10"
         />
         <p className="font-bold text-2xl mb-10 md:mb-auto md:text-3xl">
           {serviceElement.title}

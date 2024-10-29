@@ -12,6 +12,7 @@ const Content = () => {
     <ServiceCard
       key={service.id}
       id={service.id}
+      slug={service.slug}
       image={service.image}
       title={service.title}
       description={service.description}
@@ -22,6 +23,7 @@ const Content = () => {
     <FormationCard
       key={formation.id}
       id={formation.id}
+      slug={formation.slug}
       image={formation.image}
       title={formation.title}
       description={formation.description}

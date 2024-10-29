@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <div className="flex flex-col items-center bg-white pb-6">
       <div className="mb-6">
-        <img src={contactUsImage} alt="Contact Us" className="w-64 h-auto" />
+        <img src={contactUsImage} alt="Contact Us" className="size-32" />
       </div>
 
       <div className="flex flex-col items-start space-y-4 ml-4">

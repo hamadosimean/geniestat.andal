@@ -2,10 +2,12 @@ import ai from "../medias/glare-artificial-intelligence-brain-on-silicon-chip-2.
 import stat from "../medias/bonbon-analysis-of-graphs-and-diagrams-4.png";
 import techTrending from "../medias/pexels-bradleyhook-123335.jpg";
 import productiveW from "../medias/7-places-workflow.png";
+import createSlug from "../Layout/CreateSlug";
 const BlogPostsData = [
   {
     id: 1,
     title: "Les Dernières Tendances en Technologie",
+    slug: createSlug("Les Dernières Tendances en Technologie"),
     description:
       "Découvrez les dernières tendances qui façonnent l'industrie technologique aujourd'hui.",
     image: techTrending,
@@ -46,6 +48,7 @@ Les tendances technologiques actuelles démontrent une convergence entre différ
   {
     id: 2,
     title: "Comment l'IA Change Notre Monde",
+    slug: createSlug("Comment l'IA Change Notre Monde"),
     description:
       "Une plongée dans les façons dont l'intelligence artificielle transforme divers aspects de notre vie quotidienne.",
     image: ai,
@@ -80,6 +83,7 @@ L'intelligence artificielle est en train de transformer notre quotidien de mani�
   {
     id: 3,
     title: "5 Conseils pour Optimiser Votre Workflow",
+    slug: createSlug("5 Conseils pour Optimiser Votre Workflow"),
     description:
       "Des conseils pratiques pour améliorer votre productivité et optimiser votre flux de travail.",
     image: productiveW,
@@ -118,12 +122,13 @@ Optimiser votre workflow est un processus continu qui demande de la réflexion e
   },
   {
     id: 4,
-    title: "Chaque business a besoin des statistiques ",
+    title: "Chaque business a besoin des statistiques",
+    slug: createSlug("Chaque business a besoin des statistiques"),
     description:
       "L'importance des statistiques pour chaque business peu import la taille",
     image: stat,
     author: "Simean Hamado",
-    dataPublished: "08/19/2024",
+    datePublished: "08-19-2024",
     content: `# Chaque business a besoin des statistiques
 
 Dans le monde des affaires moderne, les décisions ne peuvent plus être basées uniquement sur l'intuition ou l'expérience passée. Avec l'explosion des données disponibles, les entreprises de toutes tailles doivent s'appuyer sur des analyses rigoureuses pour rester compétitives. C'est là que les statistiques entrent en jeu. Chaque business, qu'il soit petit ou grand, doit intégrer les statistiques dans ses processus pour prendre des décisions éclairées et stratégiques.

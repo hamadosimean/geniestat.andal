@@ -5,7 +5,7 @@ import Markdown from "react-markdown";
 const ServiceCard = (props) => {
   return (
     <Link
-      to={`/services/${props.id}`}
+      to={`/services/${props.slug}`}
       className="flex flex-col md:flex-row bg-white p-4 m-4 rounded-xl shadow-md h-auto w-80 md:w-2/4 transition-transform duration-300 hover:scale-105"
     >
       <img

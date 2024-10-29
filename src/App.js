@@ -25,6 +25,7 @@ import BlogDetails from "./geniestat/blog/BlogDetails";
 import Certificats from "./geniestat/components/Certificats";
 import Galery from "./geniestat/components/Galery";
 import Programs from "./geniestat/components/programs/Programs";
+// import GoToTopButton from "./geniestat/components/goToTop";
 export default function App() {
   return (
     <BrowserRouter>
@@ -32,9 +33,9 @@ export default function App() {
         <Route path="/" element={<GenieStatNavbar />}>
           <Route index element={<Home />} />
           <Route path="services" element={<Services />} />
-          <Route path="services/:id" element={<ServiceDetail />} />
+          <Route path="services/:slug" element={<ServiceDetail />} />
           <Route path="formations" element={<Formations />} />
-          <Route path="formations/:id" element={<FormationDetail />} />
+          <Route path="formations/:slug" element={<FormationDetail />} />
           <Route path="team" element={<Team />} />
           <Route path="about-us" element={<About />} />
           <Route path="contact-us" element={<Contact />} />
@@ -46,13 +47,13 @@ export default function App() {
           <Route path="career" element={<Career />} />
           <Route path="help" element={<Help />} />
           <Route path="product" element={<Products />} />
-          <Route path="product/:id" element={<ProductDetail />} />
+          <Route path="product/:slug" element={<ProductDetail />} />
           <Route path="blog" element={<Blog />} />
           <Route path="certificats" element={<Certificats />} />
           <Route path="galery" element={<Galery />} />
-          <Route path="blog/:id" element={<BlogDetails />} />
+          <Route path="blog/:slug" element={<BlogDetails />} />
           <Route path="programs" element={<Programs />} />
-          <Route path="*" element={<p>Page not found</p>} />
+          <Route path="*" element={<p>Page not found </p>} />
         </Route>
       </Routes>
       <Footer />

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const AboutTrainer = (props) => {
   return (
-    <div className="flex flex-col items-center p-4 bg-gray-100 min-h-screen">
+    <div className="flex flex-col items-center p-4 bg-gray-100">
       <h1 className="text-2xl font-bold mb-6 mt-6">À propos du formateur</h1>
       <div className="flex flex-col items-center space-y-6">
         <Link to={props.contact} target="_blank">
@@ -16,7 +16,7 @@ const AboutTrainer = (props) => {
         <div className="flex flex-col items-center text-center">
           <p className="text-xl font-semibold mb-2">{props.name}</p>
           <p className="md:w-96 w-auto overflow-auto md:overflow-y-scroll">
-            {props.speciality}
+            {props.speciality ? props.speciality : ""}
           </p>
         </div>
       </div>

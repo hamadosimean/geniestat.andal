@@ -1,7 +1,7 @@
 import React from "react";
 
 const SendWhatsapp = ({
-  phoneNumber = "22673439675",
+  phoneNumber = "22672262412",
   product,
   text = " Bonjour, j'ai vu",
 }) => {
@@ -13,7 +13,7 @@ const SendWhatsapp = ({
         href={whatsappLink}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-6 pr-4 pt-2 pl-4 pb-2 bg-blue-600 w-40 text-white"
+        className="mt-4 pr-4 pt-2 pl-4 pb-2 bg-blue-600 w-40 text-white"
       >
         Je suis interressé
       </a>

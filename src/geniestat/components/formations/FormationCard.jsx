@@ -5,7 +5,7 @@ import Markdown from "react-markdown";
 const FormationCard = (props) => {
   return (
     <Link
-      to={`/formations/${props.id}`}
+      to={`/formations/${props.slug}`}
       className="flex flex-col md:flex-row bg-white p-4 m-4 rounded-xl shadow-md h-auto w-80 md:w-2/4 transition-transform duration-300 hover:scale-105"
     >
       <img

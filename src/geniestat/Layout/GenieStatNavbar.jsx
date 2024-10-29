@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink, Outlet, Link } from "react-router-dom";
 import { Menu, Close } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
-import logoImage from "../medias/IMG-20231129-WA0038.png";
+import logoImage from "../medias/geniestat.png";
 import FlashInfo from "../components/FlashInfo";
 
 const GenieStatNavbar = () => {

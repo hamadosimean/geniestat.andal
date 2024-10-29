@@ -21,7 +21,7 @@ const Products = () => {
             <div className="flex justify-between items-center">
               <span className="text-xl font-bold">{product.price} FCFA</span>
               <Link
-                to={`/product/${product.id}`}
+                to={`/product/${product.slug}`}
                 className="bg-blue-600 text-white py-2 px-4 rounded-lg"
               >
                 En savoir plus
